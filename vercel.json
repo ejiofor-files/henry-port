@@ -4,12 +4,6 @@
     "builds": [
       { "src": "index.html", "use": "@vercel/static" }
     ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/$1"
-      }
-    ],
     "cleanUrls": true,
     "rewrites": [
       {
