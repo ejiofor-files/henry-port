@@ -675,7 +675,7 @@
 
 
 
-      <!--<!-- PORTFOLIO -->
+     <!-- PORTFOLIO -->
 <article class="portfolio" data-page="portfolio">
 
   <header>
@@ -742,93 +742,77 @@
 
       <!-- MD Fithub Project -->
       <li class="project-item active" data-filter-item data-category="web development business solutions">
-        <a href="https://www.mdfithub.com.ng/" target="_blank">
-
+        <a href="https://www.mdfithub.com.ng/" target="_blank" class="project-link">
           <figure class="project-img">
+            <button class="project-img-trigger" data-modal="md-fithub-modal"></button>
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-
             <img src="./assets/images/mdfithub.png" alt="MD Fithub Gym Management System" loading="lazy">
           </figure>
 
-          <h3 class="project-title">MD Fithub</h3>
-
-          <p class="project-category">Gym Management System</p>
-
-          <div class="project-description">
-            <p>A comprehensive fitness management platform featuring member tracking, QR code access systems, and automated membership management for modern gym operations.</p>
+          <div class="project-content">
+            <h3 class="project-title">MD Fithub</h3>
+            <p class="project-category">Gym Management System</p>
+            <p class="project-description">A comprehensive fitness management platform featuring member tracking, QR code access systems, and automated membership management.</p>
           </div>
-
         </a>
       </li>
 
       <!-- Bole Abuja Project -->
       <li class="project-item active" data-filter-item data-category="e-commerce business solutions">
-        <a href="#" target="_blank">
-
+        <a href="#" target="_blank" class="project-link">
           <figure class="project-img">
+            <button class="project-img-trigger" data-modal="bole-abuja-modal"></button>
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-
-            <img src="./assets/images/project-boleabuja.jpg" alt="Bole Abuja Restaurant Ordering System" loading="lazy">
+            <img src="./assets/images/boleabuja.png" alt="Bole Abuja Restaurant Ordering System" loading="lazy">
           </figure>
 
-          <h3 class="project-title">Bole Abuja</h3>
-
-          <p class="project-category">Restaurant E-commerce</p>
-
-          <div class="project-description">
-            <p>Full-featured restaurant ordering system with secure Paystack payments, automated email confirmations, and comprehensive admin dashboard for menu and order management.</p>
+          <div class="project-content">
+            <h3 class="project-title">Bole Abuja</h3>
+            <p class="project-category">Restaurant E-commerce</p>
+            <p class="project-description">Full-featured restaurant ordering system with secure Paystack payments, automated email confirmations, and comprehensive admin dashboard.</p>
           </div>
-
         </a>
       </li>
 
       <!-- VetCare Project -->
       <li class="project-item active" data-filter-item data-category="web development e-commerce business solutions">
-        <a href="https://www.polarisvetconsult.com.ng" target="_blank">
-
+        <a href="https://www.polarisvetconsult.com.ng" target="_blank" class="project-link">
           <figure class="project-img">
+            <button class="project-img-trigger" data-modal="polaris-modal"></button>
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-
             <img src="./assets/images/polaris.png" alt="VetCare Veterinary Services Platform" loading="lazy">
           </figure>
 
-          <h3 class="project-title">Polaris Veterinary Consult</h3>
-
-          <p class="project-category">Veterinary Services Platform</p>
-
-          <div class="project-description">
-            <p>Complete veterinary practice management solution with online appointment booking, emergency preparation system, and integrated e-commerce store for pet products.</p>
+          <div class="project-content">
+            <h3 class="project-title">Polaris Veterinary Consult</h3>
+            <p class="project-category">Veterinary Services Platform</p>
+            <p class="project-description">Complete veterinary practice management solution with online appointment booking, emergency preparation system, and integrated e-commerce.</p>
           </div>
-
         </a>
       </li>
 
       <!-- PetHealth Project -->
       <li class="project-item active" data-filter-item data-category="e-commerce business solutions">
-        <a href="#" target="_blank">
-
+        <a href="#" target="_blank" class="project-link">
           <figure class="project-img">
+            <button class="project-img-trigger" data-modal="pethealth-modal"></button>
             <div class="project-item-icon-box">
               <ion-icon name="eye-outline"></ion-icon>
             </div>
-
-            <img src="./assets/images/project-pethealth.jpg" alt="PetHealth Veterinary Clinic" loading="lazy">
+            <img src="./assets/images/Vetmax.png" alt="PetHealth Veterinary Clinic" loading="lazy">
           </figure>
 
-          <h3 class="project-title">PetHealth</h3>
-
-          <p class="project-category">Veterinary Clinic Platform</p>
-
-          <div class="project-description">
-            <p>Advanced veterinary clinic platform featuring appointment scheduling, medical record management, online store, and emergency case preparation system.</p>
+          <div class="project-content">
+            <h3 class="project-title">Vet max</h3>
+            <p class="project-category">Veterinary Clinic Platform</p>
+            <p class="project-description">Advanced veterinary clinic platform featuring appointment scheduling, medical record management, online store, and emergency case preparation.</p>
           </div>
-
         </a>
       </li>
 
@@ -838,7 +822,234 @@
 
 </article>
 
+<!-- Project Modals -->
+<div class="project-modal" id="md-fithub-modal">
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <div class="modal-header">
+      <h3 class="modal-title">MD Fithub Gym Management System</h3>
+      <p class="modal-category">Web Development & Business Solutions</p>
+    </div>
+    <div class="modal-body">
+      <div class="modal-image">
+        <img src="./assets/images/mdfithub.png" alt="MD Fithub Gym Management System">
+      </div>
+      <div class="modal-details">
+        <h4>Project Overview</h4>
+        <p class="modal-description">
+          A comprehensive fitness management platform featuring member tracking, QR code access systems, 
+          and automated membership management for modern gym operations. Streamlines gym administration 
+          and enhances member experience with real-time analytics and reporting.
+        </p>
+        
+        <div class="modal-features">
+          <h5>Key Features</h5>
+          <ul class="features-list">
+            <li>QR Code Member Access System</li>
+            <li>Automated Membership Management</li>
+            <li>Real-time Attendance Tracking</li>
+            <li>Payment Processing Integration</li>
+            <li>Member Progress Analytics</li>
+            <li>Staff Management Dashboard</li>
+            <li>Class Scheduling & Booking</li>
+            <li>Mobile Responsive Design</li>
+          </ul>
+        </div>
+        
+        <div class="modal-tech">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">QR Code API</span>
+          <span class="tech-tag">Payment Integration</span>
+          <span class="tech-tag">REST API</span>
+        </div>
+        
+        <div class="modal-links">
+          <a href="https://www.mdfithub.com.ng/" target="_blank" class="modal-link">
+            <ion-icon name="globe-outline"></ion-icon>
+            Live site
+          </a>
+          <a href="#" class="modal-link secondary">
+            <ion-icon name="code-slash-outline"></ion-icon>
+            Case Study
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="project-modal" id="bole-abuja-modal">
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <div class="modal-header">
+      <h3 class="modal-title">Bole Abuja Restaurant Ordering System</h3>
+      <p class="modal-category">E-commerce & Business Solutions</p>
+    </div>
+    <div class="modal-body">
+      <div class="modal-image">
+        <img src="./assets/images/boleabuja.png" alt="Bole Abuja Restaurant Ordering System">
+      </div>
+      <div class="modal-details">
+        <h4>Project Overview</h4>
+        <p class="modal-description">
+          A full-featured restaurant ordering platform with secure payment processing and automated order management. 
+          Designed to streamline restaurant operations and enhance customer experience with real-time order tracking 
+          and inventory management.
+        </p>
+        
+        <div class="modal-features">
+          <h5>Key Features</h5>
+          <ul class="features-list">
+            <li>Secure Paystack Payment Integration</li>
+            <li>Automated Email & SMS Confirmations</li>
+            <li>Real-time Order Tracking</li>
+            <li>Menu & Inventory Management</li>
+            <li>Admin Dashboard Analytics</li>
+            <li>Customer Management System</li>
+            <li>Mobile-Optimized Ordering</li>
+            <li>Table Reservation System</li>
+          </ul>
+        </div>
+        
+        <div class="modal-tech">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">PHP</span>
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">Paystack API</span>
+          <span class="tech-tag">SMTP</span>
+          <span class="tech-tag">Bootstrap</span>
+        </div>
+        
+        <div class="modal-links">
+          <a href="#" target="_blank" class="modal-link">
+            <ion-icon name="globe-outline"></ion-icon>
+            Live site
+          </a>
+          <a href="#" class="modal-link secondary">
+            <ion-icon name="code-slash-outline"></ion-icon>
+            Case Study
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-modal" id="polaris-modal">
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <div class="modal-header">
+      <h3 class="modal-title">Polaris Veterinary Consult</h3>
+      <p class="modal-category">Web Development, E-commerce & Business Solutions</p>
+    </div>
+    <div class="modal-body">
+      <div class="modal-image">
+        <img src="./assets/images/polaris.png" alt="Polaris Veterinary Consult">
+      </div>
+      <div class="modal-details">
+        <h4>Project Overview</h4>
+        <p class="modal-description">
+          A complete veterinary practice management solution that combines online appointment booking with 
+          e-commerce functionality. Features emergency preparation systems and comprehensive medical record 
+          management for modern veterinary clinics.
+        </p>
+        
+        <div class="modal-features">
+          <h5>Key Features</h5>
+          <ul class="features-list">
+            <li>Online Appointment Scheduling</li>
+            <li>Emergency Case Preparation System</li>
+            <li>E-commerce Store for Pet Products</li>
+            <li>Medical Record Management</li>
+            <li>Patient History Tracking</li>
+            <li>Veterinary Staff Portal</li>
+            <li>Prescription Management</li>
+            <li>Multi-location Support</li>
+          </ul>
+        </div>
+        
+        <div class="modal-tech">
+          <span class="tech-tag">Vue.js</span>
+          <span class="tech-tag">Laravel</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">Stripe</span>
+          <span class="tech-tag">Calendar API</span>
+          <span class="tech-tag">WebSockets</span>
+        </div>
+        
+        <div class="modal-links">
+          <a href="https://www.polarisvetconsult.com.ng" target="_blank" class="modal-link">
+            <ion-icon name="globe-outline"></ion-icon>
+            Live site
+          </a>
+          <a href="#" class="modal-link secondary">
+            <ion-icon name="code-slash-outline"></ion-icon>
+            Case Study
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="project-modal" id="pethealth-modal">
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <div class="modal-header">
+      <h3 class="modal-title">Vetmax Veterinary Clinic Platform</h3>
+      <p class="modal-category">E-commerce & Business Solutions</p>
+    </div>
+    <div class="modal-body">
+      <div class="modal-image">
+        <img src="./assets/images/Vetmax.png" alt="PetHealth Veterinary Clinic">
+      </div>
+      <div class="modal-details">
+        <h4>Project Overview</h4>
+        <p class="modal-description">
+          An advanced veterinary clinic management platform designed to handle all aspects of modern veterinary practice. 
+          From appointment scheduling to medical records and e-commerce, this system provides a complete solution for 
+          veterinary clinics of all sizes.
+        </p>
+        
+        <div class="modal-features">
+          <h5>Key Features</h5>
+          <ul class="features-list">
+            <li>Comprehensive Appointment System</li>
+            <li>Digital Medical Records</li>
+            <li>Pet Product E-commerce Store</li>
+            <li>Emergency Case Management</li>
+            <li>Vaccination Reminders</li>
+            <li>Billing & Invoicing System</li>
+            <li>Laboratory Integration</li>
+            <li>Mobile Vet Applications</li>
+          </ul>
+        </div>
+        
+        <div class="modal-tech">
+          <span class="tech-tag">Angular</span>
+          <span class="tech-tag">Spring Boot</span>
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">Firebase</span>
+          <span class="tech-tag">Twilio SMS</span>
+          <span class="tech-tag">Chart.js</span>
+        </div>
+        
+        <div class="modal-links">
+          <a href="#" target="_blank" class="modal-link">
+            <ion-icon name="globe-outline"></ion-icon>
+            Live site
+          </a>
+          <a href="#" class="modal-link secondary">
+            <ion-icon name="code-slash-outline"></ion-icon>
+            Case Study
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
       <!--
